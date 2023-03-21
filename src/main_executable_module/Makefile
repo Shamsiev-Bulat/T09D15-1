@@ -27,6 +27,7 @@ build_with_static: decision.o data_io.o libdata_stat.a main_executable_module.o 
 build_with_dynamic: decision.o data_io.o main_executable_module.o libdata_process.so 
 
 	$(CC) $(CFLAG) main_executable_module.o data_io.o decision.o  -o $(BUILD)Quest_6 -L$(LIBS) -ldata_process -Wl,-rpath,$(LIBS)
+	cp ../data_libs/libdata_process.so ../../build
 
 libdata_process.so: $(MODULE)data_process.c $(LIBS)data_stat.c
 
