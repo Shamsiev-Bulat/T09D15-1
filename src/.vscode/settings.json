@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "decision.h": "c",
+        "data_io.h": "c",
+        "array": "cpp",
+        "iterator": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp",
+        "ranges": "cpp"
+    }
+}

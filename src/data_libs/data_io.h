@@ -4,4 +4,4 @@
 void input(double *data, int n);
 void output(double *data, int n);
 
-#endif
+#endif  // SRC_DATA_LIBS_DATA_IO_H_
